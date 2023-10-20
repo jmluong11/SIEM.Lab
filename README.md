@@ -8,7 +8,9 @@ The purpose of this project is to gain a better understanding and use of experie
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Windows Event Viewer</b>
+- <b>Log Analytics Workspace</b>
+- <b>Azure Sentinel (SIEM)</b>
 
 <h2>Environments Used </h2>
 
