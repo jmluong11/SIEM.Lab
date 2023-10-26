@@ -11,6 +11,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Windows Event Viewer</b>
 - <b>Log Analytics Workspace</b>
 - <b>Azure Sentinel (SIEM)</b>
+- <b>ipgeolocation.io</b>
 
 <h2>Environments Used </h2>
 
