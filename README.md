@@ -21,7 +21,7 @@ The purpose of this project is to gain a better understanding and use of experie
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://imgur.com/BqoIXes"/>
+<img src="https://i.imgur.com/BqoIXes.png" height="80%" width="80%"/>
 <br />
 <br />
 Select the disk:  <br/>
