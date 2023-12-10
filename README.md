@@ -16,9 +16,8 @@ The purpose of this project is to gain a better understanding and use of experie
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b> (21H2)
-
 <h2>Program walk-through:</h2>
-
+- <b>Azure account is required!</b>
 <p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/q6dHhvN.png" height="80%" width="80%"/>
