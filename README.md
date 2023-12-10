@@ -19,10 +19,11 @@ The purpose of this project is to gain a better understanding and use of experie
 <h2>Program walk-through:</h2>
 - <b>Azure account is required!</b>
 <p align="center">
-Launch the utility: <br/>
+Create a Virtual Machine: <br/>
 <img src="https://i.imgur.com/q6dHhvN.png" height="80%" width="80%"/>
-<br />
-<br />
+- <br>Name your "Resource Group" which is where everything is going to be shared/connected among one another<br />
+- <br>Name your "Virtual Machine" (VM) <br />
+- <br>Pick any designated "Region" where this VM is located<br />
 Select the disk:  <br/>
 <img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
