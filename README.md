@@ -20,8 +20,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Azure account is required!</b>
 <b>Create a Virtual Machine: </b>
 <img src="https://i.imgur.com/q6dHhvN.png" height="80%" width="80%"/>
-<p>
-- <b>Name your "Resource Group" which is where everything is going to be shared/connected among one another</b>
+<p> Name your "Resource Group" which is where everything is going to be shared/connected among one another<br>
 - <b>Name your "Virtual Machine"</b>
 - <b>Pick any designated "Region" where this VM is located</b>
 </p>
