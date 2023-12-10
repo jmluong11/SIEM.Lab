@@ -28,8 +28,11 @@ Select the disk:  <br/>
 <br />
 <br />
 Enter the number of passes: <br/>
+ <p align="center"> <br/>
 <img src="https://imgur.com/ZoSBTIj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <p align="center"> Create a Virtual Machine <br/>
 <img src="https://i.imgur.com/uIO79Mz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <p align="center"> Create a Virtual Machine <br/>
 <img src="https://i.imgur.com/7nwaw5w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/VGej29r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/JGVjRKw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
