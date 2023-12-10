@@ -18,11 +18,11 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Windows 10</b> (21H2)
 <h2>Program walk-through:</h2>
 - <b>Azure account is required!</b>
-Create a Virtual Machine: <br/>
+Create a Virtual Machine: </b>
 <img src="https://i.imgur.com/q6dHhvN.png" height="80%" width="80%"/>
-- <br>Name your "Resource Group" which is where everything is going to be shared/connected among one another<br />
-- <br>Name your "Virtual Machine" (VM) <br />
-- <br>Pick any designated "Region" where this VM is located<br />
+- <b>Name your "Resource Group" which is where everything is going to be shared/connected among one another</b>
+- <b>Name your "Virtual Machine" (VM) </b>
+- <b>Pick any designated "Region" where this VM is located</b>
 Select the disk:  <br/>
 <img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
