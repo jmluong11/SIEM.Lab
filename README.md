@@ -22,21 +22,21 @@ The purpose of this project is to gain a better understanding and use of experie
 <br>
  
 <h3>Create a Virtual Machine </h3>
-<img src="https://i.imgur.com/q6dHhvN.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/q6dHhvN.png" height="80%" width="100%"/>
 - <b>Name your "Resource Group" which is where everything is going to be shared/connected among one another.<br>
 - <b>Name your "Virtual Machine"<br>
 - <b>Pick any designated "Region" where this VM is located<br>
  <br/>
  
 <h4>Continued </h4>
-<img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="100%"/>
 <br/>
 - <b>Create your own "Username*" and "Password*" that will be used to login into the Virtual Machine<br>
 - <b>Hit "Next: Disks>" and skip to "Next: Networing>" <br>
 <br/>
  
 <h5>Create a Virtual Machine: Networking </h5>
-<img src="https://imgur.com/ZoSBTIj.png" height="80%" width="80%"/>
+<img src="https://imgur.com/ZoSBTIj.png" height="80%" width="100%"/>
  <br/>
 - <b>Hit "Advanced" in "NIC network security group" <br>
 - <b>Hit "Create new" in "Configure network security group *" <br>
@@ -44,7 +44,7 @@ The purpose of this project is to gain a better understanding and use of experie
 <br/>
  
 <h8>Create a Virtual Machine: Create a Network Security Group </h8>
-<img src="https://i.imgur.com/uIO79Mz.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/uIO79Mz.png" height="80%" width="100%"/>
  <br/>
 - <b>"Add an inbount rule" that's highlighted in red<br>
 - <b>Set "Destination port ranges" to a "*" symbol that represents for any/all port ranges<br>
@@ -53,8 +53,8 @@ The purpose of this project is to gain a better understanding and use of experie
  <br/>
  
 <h7>Create a Log Analytics Workspace</h7>
-<img src="https://i.imgur.com/7nwaw5w.png" height="80%" width="80%">
-<img src="https://i.imgur.com/VGej29r.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/7nwaw5w.png" height="80%" width="100%">
+<img src="https://i.imgur.com/VGej29r.png" height="80%" width="100%"/>
  <br/>
 - <b>Select your account subscription and select the name you created for the "Resource Group"<br>
 - <b>Create a simple name to remember (I used lawSIEM-LAB, law standing for Log Analytics Workspace) and select the "region" as West US 3, then hit "Review + Create" which will also take some time to develop <br>
@@ -68,13 +68,13 @@ The purpose of this project is to gain a better understanding and use of experie
  <br/>
  
 <h9>Data Collection settings</h9>
-<img src="https://i.imgur.com/JGVjRKw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JGVjRKw.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
 <br/>
 - <b>In "Data Collection" click to ensure it captures "All Events"
 <br/>
 
 <h10>Connecting VM and LAW</h10>
-<img src="https://i.imgur.com/C2PtMAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/C2PtMAI.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
 <br/>
 - <b>Navigate to LAW, click on "virtual machines," and click the designated VM name that you created<br>
 <img src="https://i.imgur.com/lq7Td4H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
