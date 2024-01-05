@@ -39,7 +39,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Hit "Create new" in "Configure network security group *" <br>
 - <b>Essentially NIC network security group is simply a "firewall" that we are going to be adjusting and creating our own set of rules/settings to allow the Virtual machine to be open and targeted by other users globally. <br>
 <br/>
-<h5>Create a Virtual Machine: Create a Network Security Group </h5>
+<h6>Create a Virtual Machine: Create a Network Security Group </h6>
 <img src="https://i.imgur.com/uIO79Mz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br/>
 - <b>"Add an inbount rule" that's highlighted in red<br>
@@ -47,7 +47,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Set "Priority" to somewhere low like 100, create a "Name" for this rule, and hit "Add" then "Ok"<br>
 - <b>Lastly it will take you to the final screen in which you'll click "Review + Create" which will take some time to develop<br>
  <br/>
-<h5>Create a Log Analytics Workspace</h5>
+<h7>Create a Log Analytics Workspace</h7>
 <img src="https://i.imgur.com/7nwaw5w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br/>
 <img src="https://i.imgur.com/VGej29r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -55,6 +55,8 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Select your account subscription and select the name you created for the "Resource Group"<br>
 - <b>Create a simple name to remember (I used lawSIEM-LAB, law standing for Log Analytics Workspace) and select the "region" as West US 3, then hit "Review + Create" which will also take some time to develop <br>
  <br/>
+<h8>Microsoft Defender</h8>
+<img src="https://i.imgur.com/lpZm8qW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 - <b>In the search bar, navigate to "Microsoft Defender" <br>
 - <b>Click on "Environment Settings" in the bottom left corner<br>
  <br/>
