@@ -20,18 +20,21 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Azure account is required!</b>
 - <b>Ensure your settings are matched with the images shown if following you're along <br>
 <br>
+ 
 <h3>Create a Virtual Machine </h3>
 <img src="https://i.imgur.com/q6dHhvN.png" height="80%" width="80%"/>
 - <b>Name your "Resource Group" which is where everything is going to be shared/connected among one another.<br>
 - <b>Name your "Virtual Machine"<br>
 - <b>Pick any designated "Region" where this VM is located<br>
  <br/>
+ 
 <h4>Continued </h4>
 <img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="80%"/>
 <br/>
 - <b>Create your own "Username*" and "Password*" that will be used to login into the Virtual Machine<br>
 - <b>Hit "Next: Disks>" and skip to "Next: Networing>" <br>
 <br/>
+ 
 <h5>Create a Virtual Machine: Networking </h5>
 <img src="https://imgur.com/ZoSBTIj.png" height="80%" width="80%"/>
  <br/>
