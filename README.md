@@ -49,7 +49,6 @@ The purpose of this project is to gain a better understanding and use of experie
  <br/>
 <h7>Create a Log Analytics Workspace</h7>
 <img src="https://i.imgur.com/7nwaw5w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br/>
 <img src="https://i.imgur.com/VGej29r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br/>
 - <b>Select your account subscription and select the name you created for the "Resource Group"<br>
