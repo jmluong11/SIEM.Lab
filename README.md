@@ -34,9 +34,10 @@ The purpose of this project is to gain a better understanding and use of experie
 <br/>
 <h5>Create a Virtual Machine: Networking</h5>
 <img src="https://imgur.com/ZoSBTIj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- -<b>Hit "Advanced" in "NIC network security group" <br>
- -<b>Hit "Create new" in "Configure network security group *" <br>
- -<b>Essentially NIC network security group is simply a "firewall" that we are going to be adjusting and creating our own set of rules/settings to allow the Virtual machine to be open and targeted by other users globally <br>
+ <br/>
+ - <b>Hit "Advanced" in "NIC network security group" <br>
+ - <b>Hit "Create new" in "Configure network security group *" <br>
+ - <b>Essentially NIC network security group is simply a "firewall" that we are going to be adjusting and creating our own set of rules/settings to allow the Virtual machine to be open and targeted by other users globally <br>
 <img src="https://i.imgur.com/uIO79Mz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/7nwaw5w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/VGej29r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
