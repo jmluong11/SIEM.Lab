@@ -55,8 +55,6 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Select your account subscription and select the name you created for the "Resource Group"<br>
 - <b>Create a simple name to remember (I used lawSIEM-LAB, law standing for Log Analytics Workspace) and select the "region" as West US 3, then hit "Review + Create" which will also take some time to develop <br>
  <br/>
-<h6>Microsoft Defender</h6>
- <br/>
 - <b>In the search bar, navigate to "Microsoft Defender" <br>
 - <b>Click on "Environment Settings" in the bottom left corner<br>
  <br/>
