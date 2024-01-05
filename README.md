@@ -25,8 +25,8 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Name your "Virtual Machine"<br>
 - <b>Pick any designated "Region" where this VM is located<br>
  <br/>
-<h4>Select the disk:  </h4>
-<img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h4>Continued </h4>
+<img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="80%"/>
 - <b>Create your own "Username*" and "Password*" that will be used to login into the Virtual Machine</b>
 - <b>Follow the default/chosen settings from the image</b>
 <br/>
