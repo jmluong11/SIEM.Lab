@@ -29,7 +29,6 @@ The purpose of this project is to gain a better understanding and use of experie
 <b>Select the disk:  <br/>
 <img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
 Enter the number of passes: <br/>
 <img src="https://imgur.com/ZoSBTIj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/uIO79Mz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
