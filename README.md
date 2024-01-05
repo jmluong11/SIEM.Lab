@@ -54,7 +54,6 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Create a simple name to remember (I used lawSIEM-LAB, law standing for Log Analytics Workspace) and select the "region" as West US 3, then hit "Review + Create" which will also take some time to develop <br>
  <br/>
 <h6>Microsoft Defender</h6>
-<img src="https://i.imgur.com/VGej29r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br/>
 <img src="https://imgur.com/lpZm8qW.png" height="80%" width="80%"/>
 - <b>In the search bar, navigate to "Microsoft Defender" <br>
