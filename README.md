@@ -27,6 +27,7 @@ The purpose of this project is to gain a better understanding and use of experie
  <br/>
 <h4>Continued </h4>
 <img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="80%"/>
+<br/>
 - <b>Create your own "Username*" and "Password*" that will be used to login into the Virtual Machine</b>
 - <b>Follow the default/chosen settings from the image</b>
 <br/>
