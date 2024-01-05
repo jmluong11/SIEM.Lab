@@ -18,6 +18,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Windows 10</b> (21H2)
 <h2>Program walk-through:</h2>
 - <b>Azure account is required!</b>
+- <b>Ensure your settings are matched with the images shown if following you're along <br>
 <br>
 <h3>Create a Virtual Machine </h3>
 <img src="https://i.imgur.com/q6dHhvN.png" height="80%" width="80%"/>
@@ -29,9 +30,11 @@ The purpose of this project is to gain a better understanding and use of experie
 <img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="80%"/>
 <br/>
 - <b>Create your own "Username*" and "Password*" that will be used to login into the Virtual Machine<br>
-- <b>Follow the default/chosen settings from the image<br>
+- <b>Hit "Next: Disks>" and skip to "Next: Networing>" <br>
 <br/>
+<h5>Create a Virtual Machine: Networking</h5>
 <img src="https://imgur.com/ZoSBTIj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ -<b></b>
 <img src="https://i.imgur.com/uIO79Mz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/7nwaw5w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/VGej29r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
