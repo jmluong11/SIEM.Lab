@@ -24,6 +24,8 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Name your "Resource Group" which is where everything is going to be shared/connected among one another.<br>
 - <b>Name your "Virtual Machine"<br>
 - <b>Pick any designated "Region" where this VM is located<br>
+ <br/>
+ <br/>
 <b>Select the disk:  <br/>
 <img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
