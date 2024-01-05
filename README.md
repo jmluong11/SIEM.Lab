@@ -19,7 +19,7 @@ The purpose of this project is to gain a better understanding and use of experie
 <h2>Program walk-through:</h2>
 - <b>Azure account is required!</b>
 <br>
-<br>Create a Virtual Machine </br>
+<h3>Create a Virtual Machine </h3>
 <img src="https://i.imgur.com/q6dHhvN.png" height="80%" width="80%"/>
 - <b>Name your "Resource Group" which is where everything is going to be shared/connected among one another.<br>
 - <b>Name your "Virtual Machine"<br>
