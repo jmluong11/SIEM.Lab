@@ -32,7 +32,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Create your own "Username*" and "Password*" that will be used to login into the Virtual Machine<br>
 - <b>Hit "Next: Disks>" and skip to "Next: Networing>" <br>
 <br/>
-<h5>Create a Virtual Machine: Networking</h5>
+<h5>Create a Virtual Machine: Networking </h5>
 <img src="https://imgur.com/ZoSBTIj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br/>
 - <b>Hit "Advanced" in "NIC network security group" <br>
