@@ -55,6 +55,7 @@ The purpose of this project is to gain a better understanding and use of experie
  <br/>
 <h6>Microsoft Defender</h6>
  <br/>
+<img src="https://i.imgur.com/VGej29r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://imgur.com/lpZm8qW.png" height="80%" width="80%"/>
 - <b>In the search bar, navigate to "Microsoft Defender" <br>
 - <b>Click on </b>
