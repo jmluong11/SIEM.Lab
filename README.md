@@ -66,7 +66,17 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>In the search bar, navigate to "Microsoft Defender" <br>
 - <b>Click on "Environment Settings" in the bottom left corner<br>
  <br/>
+ 
+<h9>Data Collection settings</h9>
+<img src="https://i.imgur.com/JGVjRKw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b>In "Data Collection" click to ensure it captures "All Events"
+<br/>
+
+<h10>Connecting VM and LAW</h10>
 <img src="https://i.imgur.com/C2PtMAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b>Navigate to LAW, click on "virtual machines," and click the designated VM name that you created<br>
 <img src="https://i.imgur.com/lq7Td4H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/iGfapgl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/5Epq5hV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
