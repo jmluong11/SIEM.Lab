@@ -44,7 +44,9 @@ The purpose of this project is to gain a better understanding and use of experie
  <br/>
 - <b>"Add an inbount rule" that's highlighted in red<br>
 - <b>Set "Destination port ranges" to a "*" symbol that represents for any/all port ranges<br>
-- <b>Set "Priority" to somewhere low like 100 and create a "Name" for this rule<br>
+- <b>Set "Priority" to somewhere low like 100, create a "Name" for this rule, and hit "Add" then "Ok"<br>
+ <br/>
+<h5>Log Analytics Workspace</h5>
 <img src="https://i.imgur.com/7nwaw5w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/VGej29r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/JGVjRKw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
