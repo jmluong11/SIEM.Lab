@@ -45,10 +45,21 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>"Add an inbount rule" that's highlighted in red<br>
 - <b>Set "Destination port ranges" to a "*" symbol that represents for any/all port ranges<br>
 - <b>Set "Priority" to somewhere low like 100, create a "Name" for this rule, and hit "Add" then "Ok"<br>
+- <b>Lastly it will take you to the final screen in which you'll click "Review + Create" which will take some time to develop</b>
  <br/>
-<h5>Log Analytics Workspace</h5>
+<h5>Create a Log Analytics Workspace</h5>
 <img src="https://i.imgur.com/7nwaw5w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br/>
+- <b>Select your account subscription and select the name you created for the "Resource Group"<br>
+- <b>Create a simple name to remember (I used lawSIEM-LAB, law standing for Log Analytics Workspace) and select the "region" as West US 3, then hit "Review + Create" which will also take some time to develop <br>
+ <br/>
+<h6>Microsoft Defender</h6>
 <img src="https://i.imgur.com/VGej29r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br/>
+<img src="https://imgur.com/lpZm8qW.png" height="80%" width="80%"/>
+- <b>In the search bar, navigate to "Microsoft Defender" <br>
+- <b>Click on </b>
+ 
 <img src="https://i.imgur.com/JGVjRKw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/C2PtMAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/lq7Td4H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
