@@ -107,12 +107,12 @@ The purpose of this project is to gain a better understanding and use of experie
 <br/>
 
 <h15>Turning off the Firewall</h15>
-<img src="https://i.imgur.com/l3jwTwc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/l3jwTwc.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
 <br/>
 - <b> In the start menu of the Virtual Machine type "wf.msc" to navigate to the firewall<br>
 <img src="https://i.imgur.com/dogSFHT.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
 - <b> RED: Click on Wireless Defender Firewall Properties <br>
-- <b> ORANGE: In "Domain Profile," "Private Profile," "Public Profile," and "IPsec Settings;" switch the "On (recommended)" to "Off" across all tabs and hit "Apply" then "OK"
+- <b> ORANGE: In "Domain Profile," "Private Profile," "Public Profile," and "IPsec Settings;" switch the "On (recommended)" to "Off" across all tabs and hit "Apply" then "OK"<br>
 <br/>
 
 <h16>IP Geolocation</h16>
@@ -133,25 +133,45 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> GREEN: After a period of time; coordinates, attempted username, IP address, City/State/Province with COuntry, and time of attempted failed logins will appear in each line of purple text <br>
 <br/>
 
-<h18>File Saving failed RDP attempt logs</18>
+<h18>File Saving failed RDP attempt logs</h18>
 <img src="https://i.imgur.com/ms32orJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br/>
-- <b> Use "Notepad" from the start menu and copy and paste several lines of the recorded failed login attempts into the Notepad<br>
+- <b> Use "Notepad" from the start menu on YOUR PERSONAL PC (outside the Virtual Machine) and in the Virtual Machine, then copy and paste several lines of the recorded failed login attempts into the Notepad<br>
 - <b> Save the file under the given name that's desired<br>
 <br/>
 
 <h19>Creating a Custom Log</h19>
-<img src="https://i.imgur.com/rlr3NtO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rlr3NtO.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/IgjHus7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br/>
-- <b> Minimize or exit the Virtual Machine and 
+- <b> Minimize or exit the Virtual Machine and go to your Virtual Machine through Microsoft Azure from your personal PC<br>
+- <b> Navigate to "Tables" then click "New custom log (MMA based)"
+- <b> Enter the file name saved from earlier (failed_rdp) and hit "Next"<br>
 <img src="https://i.imgur.com/hUJAW8e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b> Now the failed RDP attempts will be sorted and separated into its own respected line of text as shown above<br>
+- <b> Hit "Next" <br>
 <img src="https://i.imgur.com/GTlXWSi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b> Manually type the route of the "Notepad" file that was saved IN the VIRTUAL MACHINE<br>
 <img src="https://i.imgur.com/XhFQPjM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b> Create a name of the Custom Log<br>
 <img src="https://i.imgur.com/jIuSkPa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b> Ensure all steps are done properly and "Create"
+<br/>
+
+<h20>Microsoft Sentinel<h20>
 <img src="https://i.imgur.com/LuFTOY9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/A1p7UPT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b> Navigate and create "Microsoft Sentinel" in Microsoft Azure<br>
+- <b> RED: Go to Workbooks<br>
+- <b> ORANGE: "+ Add workbook"<br>
+<br/>
+
+<h21>Failed RDP World Map</h21>
 <img src="https://i.imgur.com/jNVrbUV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b> RED: Create a Name for the workbook<br>
+- <b> Also remove everything that's defaulted on the screen until you reach that "Azure Sentinel Report has no content"<br>
+- <b> ORANGE: "Add query"<br>
 <img src="https://i.imgur.com/RT0KlH3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/X1jj8Sv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
