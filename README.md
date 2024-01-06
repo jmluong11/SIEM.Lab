@@ -173,7 +173,28 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> Also remove everything that's defaulted on the screen until you reach that "Azure Sentinel Report has no content"<br>
 - <b> ORANGE: "Add query"<br>
 <img src="https://i.imgur.com/RT0KlH3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b> RED: Into the query copy and paste this code below:<br>
+<b> FAILED_RDP_WITH_GEO_CL 
+| extend username = extract(@"username:([^,]+)", 1, RawData),
+         timestamp = extract(@"timestamp:([^,]+)", 1, RawData),
+         latitude = extract(@"latitude:([^,]+)", 1, RawData),
+         longitude = extract(@"longitude:([^,]+)", 1, RawData),
+         sourcehost = extract(@"sourcehost:([^,]+)", 1, RawData),
+         state = extract(@"state:([^,]+)", 1, RawData),
+         label = extract(@"label:([^,]+)", 1, RawData),
+         destination = extract(@"destinationhost:([^,]+)", 1, RawData),
+         country = extract(@"country:([^,]+)", 1, RawData)
+| where destination != "samplehost"
+| where sourcehost != ""
+| summarize event_count=count() by latitude, longitude, sourcehost, label, destination, country <br>
+- <b> ORANGE: Run Query<br>
+<br/>
 <img src="https://i.imgur.com/X1jj8Sv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b> RED: Match the Map Settings on the right side of the screen and hit "Apply"<br>
+- <b> ORANGE: The map illustates all logged failed RDP attempts by different sized circles representing the magnitude of attempts. Different countries are separated by color, and the amount of recorded failed RDP attempts are listed below in the legend.<br>
+- <b> ORANGE: After a certain period of time, Poland has the most failed RDP attempts (12.5k) that's represented by the red circle on the map<br/>
+<br/>
+<b>Congratulations! You have successfully created a Virtual Machine linked to a SIEM to observe live attacks through RDP Brute Force from various parts of the world. You are able to see how either individuals/bots attempt to Brute Force their way into a Host IP address through various usernames. In application into the real world, the massive amount of attempts are important to note of because one successful login attempt for a small or huge corporation can lead to leaked data which can cost the company millions of dollars if not billions<b> 
 <br />
 <br />
 
