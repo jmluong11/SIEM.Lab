@@ -99,12 +99,34 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> Enter the username and password that was created when creating the Virtual Machine and hit OK<br>
 <br/>
 
+<h14>Event Viewer</h14>
 <img src="https://i.imgur.com/mco7rWk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b> RED: In the start menu of the Virtual Machine, search for "Event Viewer" and navigate to "Security" <br>
+- <b> ORANGE: "Audit Failure" and "Task Category" represents a failed login attempt into the Virtual Machine with the date/time<br>
+<br/>
+
+<h15>Turning off the Firewall</h15>
 <img src="https://i.imgur.com/l3jwTwc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b> In the start menu of the Virtual Machine type "wf.msc" to navigate to the firewall<br>
 <img src="https://i.imgur.com/dogSFHT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/0OF4AO2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b> RED: Click on Wireless Defender Firewall Properties <br>
+- <b> ORANGE: In "Domain Profile," "Private Profile," "Public Profile," and "IPsec Settings;" switch the "On (recommended)" to "Off" across all tabs and hit "Apply" then "OK"
+<br/>
+
+<h16>IP Geolocation</h16>
 <img src="https://i.imgur.com/63atKpQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/d7NtbOF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b>In Microsoft Edge, go to this URL "[https://ipgeolocation.io/](https://ipgeolocation.io/)" and create an account<br>
+- <b> Once signed in with your account, navigate to the "Dashboard" tab and copy the API Key<br>
+<br/>
+
+<h17>PowerShell ISE</h17>
+<img src="https://i.imgur.com/0OF4AO2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b> Open "Windows Powershell ISE" in your Windows Startup Menu<br>
 <img src="https://i.imgur.com/IV0nKRh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/ms32orJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/rlr3NtO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
