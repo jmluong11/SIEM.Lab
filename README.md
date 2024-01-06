@@ -57,7 +57,7 @@ The purpose of this project is to gain a better understanding and use of experie
 <img src="https://i.imgur.com/VGej29r.png" height="80%" width="100%"/>
  <br/>
 - <b>Select your account subscription and select the name you created for the "Resource Group"<br>
-- <b>Create a simple name to remember (I used lawSIEM-LAB, law standing for Log Analytics Workspace) and select the "region" as West US 3, then hit "Review + Create" which will also take some time to develop <br>
+- <b>Create a simple name to remember (I used lawSIEM-LAB, law standing for Log Analytics Workspace) and select the "region" as West US 3, then hit "Review + Create" which will take some time to develop <br>
  <br/>
  
 <h8>Microsoft Defender</h8>
@@ -79,12 +79,26 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Navigate to LAW, click on "virtual machines," and click the designated VM name that you created<br>
 <img src="https://i.imgur.com/2suLoqy.png" height="80%" width="100%" />
 <br/>
-- <b> Click "Connect" to connect the Virtual Machine and the Log Analytics Workspace <br>
+- <b>Click "Connect" to connect the Virtual Machine and the Log Analytics Workspace, and this will take time to process<br>
 <br/>
-<h11>
-<img src="https://i.imgur.com/iGfapgl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<h11> Virtual Machine IP Address</h11>
+<img src="https://i.imgur.com/iGfapgl.png" height="80%" width="100%"/>
+- <b>Go to your Virtual Machine (SIEM-LABZ) and record the "Public IP address" that's assigned<br>
+<br/>
+
+<h12>Remote Desktop Connection
 <img src="https://i.imgur.com/5Epq5hV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/OvFIu8O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b>In your start menu on the computer, search for "Remote Desktop Connection" and paste the recorded Public IP address <br>
+<br/>
+
+<h13>Account Login</h13>
+<img src="https://i.imgur.com/OvFIu8O.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b> Enter the username and password that was created when creating the Virtual Machine and hit OK<br>
+<br/>
+
 <img src="https://i.imgur.com/mco7rWk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/l3jwTwc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/dogSFHT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
