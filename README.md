@@ -147,7 +147,8 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> Minimize or exit the Virtual Machine and go to your Virtual Machine through Microsoft Azure from your personal PC<br>
 - <b> Navigate to "Tables" then click "New custom log (MMA based)"
 - <b> Enter the file name saved from earlier (failed_rdp) and hit "Next"<br>
-<img src="https://i.imgur.com/hUJAW8e.png" height="80%" width="80%" />
+<br/>
+<img src="https://i.imgur.com/hUJAW8e.png" height="80%" width="100%" />
 - <b> Now the failed RDP attempts will be sorted and separated into its own respected line of text as shown above<br>
 - <b> Hit "Next" <br>
 <br/>
@@ -162,19 +163,19 @@ The purpose of this project is to gain a better understanding and use of experie
 <br/>
 
 <h20>Microsoft Sentinel<h20>
-<img src="https://i.imgur.com/LuFTOY9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/A1p7UPT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LuFTOY9.png" height="80%" width="100%"/>
+<img src="https://i.imgur.com/A1p7UPT.png" height="80%" width="100%"/>
 - <b> Navigate and create "Microsoft Sentinel" in Microsoft Azure<br>
 - <b> RED: Go to Workbooks<br>
 - <b> ORANGE: "+ Add workbook"<br>
 <br/>
 
 <h21>Failed RDP World Map</h21>
-<img src="https://i.imgur.com/jNVrbUV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jNVrbUV.png" height="80%" width="100%"/>
 - <b> RED: Create a Name for the workbook<br>
 - <b> Also remove everything that's defaulted on the screen until you reach that "Azure Sentinel Report has no content"<br>
 - <b> ORANGE: "Add query"<br>
-<img src="https://i.imgur.com/RT0KlH3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RT0KlH3.png" height="80%" width="100%"/>
 - <b> RED: Into the query copy and paste this code below:<br>
 <b> FAILED_RDP_WITH_GEO_CL 
 | extend username = extract(@"username:([^,]+)", 1, RawData),
@@ -191,7 +192,7 @@ The purpose of this project is to gain a better understanding and use of experie
 | summarize event_count=count() by latitude, longitude, sourcehost, label, destination, country <br>
 - <b> ORANGE: Run Query<br>
 <br/>
-<img src="https://i.imgur.com/X1jj8Sv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/X1jj8Sv.png" height="80%" width="100%"/>
 - <b> RED: Match the Map Settings on the right side of the screen and hit "Apply"<br>
 - <b> ORANGE: The map illustates all logged failed RDP attempts by different sized circles representing the magnitude of attempts. Different countries are separated by color, and the amount of recorded failed RDP attempts are listed below in the legend.<br>
 - <b> ORANGE: After a certain period of time, Poland has the most failed RDP attempts (12.5k) that's represented by the red circle on the map<br/>
