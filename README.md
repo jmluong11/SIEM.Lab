@@ -68,13 +68,13 @@ The purpose of this project is to gain a better understanding and use of experie
  <br/>
  
 <h9>Data Collection settings</h9>
-<img src="https://i.imgur.com/JGVjRKw.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JGVjRKw.png" height="80%" width="100%"/>
 <br/>
 - <b>In "Data Collection" click to ensure it captures "All Events"
 <br/>
 
 <h10>Connecting VM and LAW</h10>
-<img src="https://i.imgur.com/C2PtMAI.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/C2PtMAI.png" height="80%" width="100%"/>
 <br/>
 - <b>Navigate to LAW, click on "virtual machines," and click the designated VM name that you created<br>
 <img src="https://i.imgur.com/2suLoqy.png" height="80%" width="100%" />
@@ -88,44 +88,44 @@ The purpose of this project is to gain a better understanding and use of experie
 <br/>
 
 <h12>Remote Desktop Connection
-<img src="https://i.imgur.com/5Epq5hV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5Epq5hV.png" height="80%" width="80%"/>
 <br/>
 - <b>In your start menu on the computer, search for "Remote Desktop Connection" and paste the recorded Public IP address <br>
 <br/>
 
 <h13>Account Login</h13>
-<img src="https://i.imgur.com/OvFIu8O.png" height="50%" width="90%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OvFIu8O.png" height="50%" width="90%"/>
 <br/>
 - <b> Enter the username and password that was created when creating the Virtual Machine and hit OK<br>
 <br/>
 
 <h14>Event Viewer</h14>
-<img src="https://i.imgur.com/mco7rWk.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mco7rWk.png" height="80%" width="100%"/>
 <br/>
 - <b> RED: In the start menu of the Virtual Machine, search for "Event Viewer" and navigate to "Security" <br>
 - <b> ORANGE: "Audit Failure" and "Task Category" represents a failed login attempt into the Virtual Machine with the date/time<br>
 <br/>
 
 <h15>Turning off the Firewall</h15>
-<img src="https://i.imgur.com/l3jwTwc.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/l3jwTwc.png" height="80%" width="100%"/>
 <br/>
 - <b> In the start menu of the Virtual Machine type "wf.msc" to navigate to the firewall<br>
-<img src="https://i.imgur.com/dogSFHT.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dogSFHT.png" height="80%" width="100%"/>
 - <b> RED: Click on Wireless Defender Firewall Properties <br>
 - <b> ORANGE: In "Domain Profile," "Private Profile," "Public Profile," and "IPsec Settings;" switch the "On (recommended)" to "Off" across all tabs and hit "Apply" then "OK"<br>
 <br/>
 
 <h16>IP Geolocation</h16>
-<img src="https://i.imgur.com/63atKpQ.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/d7NtbOF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/63atKpQ.png" height="80%" width="100%"/>
+<img src="https://i.imgur.com/d7NtbOF.png" height="80%" width="80%"/>
 <br/>
 - <b>In Microsoft Edge, go to this URL "[https://ipgeolocation.io/](https://ipgeolocation.io/)" and create an account<br>
 - <b> Once signed in with your account, navigate to the "Dashboard" tab and copy the API Key<br>
 <br/>
 
 <h17>PowerShell ISE</h17>
-<img src="https://i.imgur.com/0OF4AO2.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/IV0nKRh.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0OF4AO2.png" height="80%" width="100%"/>
+<img src="https://i.imgur.com/IV0nKRh.png" height="80%" width="100%"/>
 <br/>
 - <b> Open "Windows Powershell ISE" in your Windows Startup Menu within the Virtual Machine<br>
 - <b> RED: Copy and paste the code into the Powershell query from this link "[https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1](https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1)" <br>
@@ -134,28 +134,30 @@ The purpose of this project is to gain a better understanding and use of experie
 <br/>
 
 <h18>File Saving failed RDP attempt logs</h18>
-<img src="https://i.imgur.com/ms32orJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ms32orJ.png" height="80%" width="80%"/>
 <br/>
 - <b> Use "Notepad" from the start menu on YOUR PERSONAL PC (outside the Virtual Machine) and in the Virtual Machine, then copy and paste several lines of the recorded failed login attempts into the Notepad<br>
 - <b> Save the file under the given name that's desired<br>
 <br/>
 
 <h19>Creating a Custom Log</h19>
-<img src="https://i.imgur.com/rlr3NtO.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/IgjHus7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rlr3NtO.png" height="80%" width="100%"/>
+<img src="https://i.imgur.com/IgjHus7.png" height="80%" width="80%"/>
 <br/>
 - <b> Minimize or exit the Virtual Machine and go to your Virtual Machine through Microsoft Azure from your personal PC<br>
 - <b> Navigate to "Tables" then click "New custom log (MMA based)"
 - <b> Enter the file name saved from earlier (failed_rdp) and hit "Next"<br>
-<img src="https://i.imgur.com/hUJAW8e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br/>
+<img src="https://i.imgur.com/hUJAW8e.png" height="80%" width="80%" />
 - <b> Now the failed RDP attempts will be sorted and separated into its own respected line of text as shown above<br>
 - <b> Hit "Next" <br>
-<img src="https://i.imgur.com/GTlXWSi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<img src="https://i.imgur.com/GTlXWSi.png" height="80%" width="100%"/>
 - <b> Manually type the route of the "Notepad" file that was saved IN the VIRTUAL MACHINE<br>
-<img src="https://i.imgur.com/XhFQPjM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<img src="https://i.imgur.com/XhFQPjM.png" height="80%" width="100%"/>
 - <b> Create a name of the Custom Log<br>
-<img src="https://i.imgur.com/jIuSkPa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<img src="https://i.imgur.com/jIuSkPa.png" height="80%" width="100%"/>
 - <b> Ensure all steps are done properly and "Create"
 <br/>
 
