@@ -77,7 +77,11 @@ The purpose of this project is to gain a better understanding and use of experie
 <img src="https://i.imgur.com/C2PtMAI.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
 <br/>
 - <b>Navigate to LAW, click on "virtual machines," and click the designated VM name that you created<br>
-<img src="https://i.imgur.com/lq7Td4H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2suLoqy.png" height="80%" width="100%" />
+<br/>
+- <b> Click "Connect" to connect the Virtual Machine and the Log Analytics Workspace <br>
+<br/>
+<h11>
 <img src="https://i.imgur.com/iGfapgl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/5Epq5hV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/OvFIu8O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
