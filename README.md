@@ -200,7 +200,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> ORANGE: The map illustates all logged failed RDP attempts by different sized circles representing the magnitude of attempts. Different countries are separated by color, and the amount of recorded failed RDP attempts are listed below in the legend.<br>
 - <b> ORANGE: After a certain period of time, Poland has the most failed RDP attempts (12.5k) that's represented by the red circle on the map<br/>
 <br/>
-<h3>Congratulations! You have successfully created a Virtual Machine linked to a SIEM to observe live attacks through RDP Brute Force from various parts of the world. You are able to see how either individuals/bots attempt to Brute Force their way into a Host IP address through various usernames. In application into the real world, the massive amount of attempts are important to note of because one successful login attempt for a small or huge corporation can lead to leaked data which can cost the company millions of dollars if not billions</h3> 
+<h3>Congratulations! You have successfully created a Virtual Machine linked to a SIEM to observe live attacks through RDP Brute Force from various parts of the world. You are able to see how either individuals/bots attempt to Brute Force their way into a Host IP address through various usernames. In application into the real world, the massive amount of attempts are important to note of because one successful login attempt for a small or huge corporation can lead to leaked data which can cost the company millions of dollars if not billions.</h3> 
 <br />
 <br />
 
