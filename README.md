@@ -161,6 +161,7 @@ The purpose of this project is to gain a better understanding and use of experie
 <img src="https://i.imgur.com/jIuSkPa.png" height="80%" width="100%"/>
 - <b> Ensure all steps are done properly and "Create"
 <br/>
+<br/>
 
 <h20>Microsoft Sentinel<h20>
 <img src="https://i.imgur.com/LuFTOY9.png" height="80%" width="100%"/>
@@ -177,6 +178,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> ORANGE: "Add query"<br>
 <img src="https://i.imgur.com/RT0KlH3.png" height="80%" width="100%"/>
 - <b> RED: Into the query copy and paste this code below:<br>
+<br/>
 <b> FAILED_RDP_WITH_GEO_CL 
 | extend username = extract(@"username:([^,]+)", 1, RawData),
          timestamp = extract(@"timestamp:([^,]+)", 1, RawData),
@@ -190,6 +192,7 @@ The purpose of this project is to gain a better understanding and use of experie
 | where destination != "samplehost"
 | where sourcehost != ""
 | summarize event_count=count() by latitude, longitude, sourcehost, label, destination, country <br>
+<br/>
 - <b> ORANGE: Run Query<br>
 <br/>
 <img src="https://i.imgur.com/X1jj8Sv.png" height="80%" width="100%"/>
