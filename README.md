@@ -28,14 +28,14 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Pick any designated "Region" where this VM is located<br>
  <br/>
  
-<h4>Continued </h4>
+<h3>Continued </h3>
 <img src="https://i.imgur.com/BdRtnQs.png" height="80%" width="100%"/>
 <br/>
 - <b>Create your own "Username*" and "Password*" that will be used to login into the Virtual Machine<br>
 - <b>Hit "Next: Disks>" and skip to "Next: Networing>" <br>
 <br/>
  
-<h5>Create a Virtual Machine: Networking </h5>
+<h3>Create a Virtual Machine: Networking </h3>
 <img src="https://imgur.com/ZoSBTIj.png" height="80%" width="100%"/>
  <br/>
 - <b>Hit "Advanced" in "NIC network security group" <br>
@@ -43,7 +43,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Essentially NIC network security group is simply a "firewall" that we are going to be adjusting and creating our own set of rules/settings to allow the Virtual machine to be open and targeted by other users globally. <br>
 <br/>
  
-<h8>Create a Virtual Machine: Create a Network Security Group </h8>
+<h3>Create a Virtual Machine: Create a Network Security Group </h3>
 <img src="https://i.imgur.com/uIO79Mz.png" height="80%" width="100%"/>
  <br/>
 - <b>"Add an inbount rule" that's highlighted in red<br>
@@ -52,7 +52,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Lastly it will take you to the final screen in which you'll click "Review + Create" which will take some time to develop<br>
  <br/>
  
-<h7>Create a Log Analytics Workspace</h7>
+<h3>Create a Log Analytics Workspace</h3>
 <img src="https://i.imgur.com/7nwaw5w.png" height="80%" width="100%">
 <img src="https://i.imgur.com/VGej29r.png" height="80%" width="100%"/>
  <br/>
@@ -60,20 +60,20 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Create a simple name to remember (I used lawSIEM-LAB, law standing for Log Analytics Workspace) and select the "region" as West US 3, then hit "Review + Create" which will take some time to develop <br>
  <br/>
  
-<h8>Microsoft Defender</h8>
+<h3>Microsoft Defender</h3>
 <img src="https://i.imgur.com/lpZm8qW.png" height="80%" width="100%"/>
 <br/>
 - <b>In the search bar, navigate to "Microsoft Defender" <br>
 - <b>Click on "Environment Settings" in the bottom left corner<br>
  <br/>
  
-<h9>Data Collection settings</h9>
+<h3>Data Collection settings</h3>
 <img src="https://i.imgur.com/JGVjRKw.png" height="80%" width="100%"/>
 <br/>
 - <b>In "Data Collection" click to ensure it captures "All Events"
 <br/>
 
-<h10>Connecting VM and LAW</h10>
+<h3>Connecting VM and LAW</h3>
 <img src="https://i.imgur.com/C2PtMAI.png" height="80%" width="100%"/>
 <br/>
 - <b>Navigate to LAW, click on "virtual machines," and click the designated VM name that you created<br>
@@ -82,31 +82,31 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> Click "Connect" to connect the Virtual Machine and the Log Analytics Workspace, and this will take time to process <br>
 <br/>
 
-<h11> Virtual Machine IP Address</h11>
+<h3> Virtual Machine IP Address</h3>
 <img src="https://i.imgur.com/iGfapgl.png" height="80%" width="100%"/>
 - <b>Go to your Virtual Machine (SIEM-LABZ "Note there was a slight name change, but the principle still applies the exact same!") and record the "Public IP address" that's assigned<br>
 <br/>
 
-<h12>Remote Desktop Connection
+<h3>Remote Desktop Connection</h3>
 <img src="https://i.imgur.com/5Epq5hV.png" height="80%" width="80%"/>
 <br/>
 - <b>In your start menu on the computer, search for "Remote Desktop Connection" and paste the recorded Public IP address <br>
 <br/>
 
-<h13>Account Login</h13>
+<h3>Account Login</h3>
 <img src="https://i.imgur.com/OvFIu8O.png" height="50%" width="90%"/>
 <br/>
 - <b> Enter the username and password that was created when creating the Virtual Machine and hit OK<br>
 <br/>
 
-<h14>Event Viewer</h14>
+<h3>Event Viewer</h3>
 <img src="https://i.imgur.com/mco7rWk.png" height="80%" width="100%"/>
 <br/>
 - <b> RED: In the start menu of the Virtual Machine, search for "Event Viewer" and navigate to "Security" <br>
 - <b> ORANGE: "Audit Failure" and "Task Category" represents a failed login attempt into the Virtual Machine with the date/time<br>
 <br/>
 
-<h15>Turning off the Firewall</h15>
+<h3>Turning off the Firewall</h3>
 <img src="https://i.imgur.com/l3jwTwc.png" height="80%" width="100%"/>
 <br/>
 - <b> In the start menu of the Virtual Machine type "wf.msc" to navigate to the firewall<br>
@@ -115,7 +115,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> ORANGE: In "Domain Profile," "Private Profile," "Public Profile," and "IPsec Settings;" switch the "On (recommended)" to "Off" across all tabs and hit "Apply" then "OK"<br>
 <br/>
 
-<h16>IP Geolocation</h16>
+<h3>IP Geolocation</h3>
 <img src="https://i.imgur.com/63atKpQ.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/d7NtbOF.png" height="80%" width="80%"/>
 <br/>
@@ -123,7 +123,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> Once signed in with your account, navigate to the "Dashboard" tab and copy the API Key<br>
 <br/>
 
-<h17>PowerShell ISE</h17>
+<h3>PowerShell ISE</h3>
 <img src="https://i.imgur.com/0OF4AO2.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/IV0nKRh.png" height="80%" width="100%"/>
 <br/>
@@ -133,14 +133,14 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> GREEN: After a period of time; coordinates, attempted username, IP address, City/State/Province with COuntry, and time of attempted failed logins will appear in each line of purple text <br>
 <br/>
 
-<h18>File Saving failed RDP attempt logs</h18>
+<h3>File Saving failed RDP attempt logs</h3>
 <img src="https://i.imgur.com/ms32orJ.png" height="80%" width="80%"/>
 <br/>
 - <b> Use "Notepad" from the start menu on YOUR PERSONAL PC (outside the Virtual Machine) and in the Virtual Machine, then copy and paste several lines of the recorded failed login attempts into the Notepad<br>
 - <b> Save the file under the given name that's desired<br>
 <br/>
 
-<h19>Creating a Custom Log</h19>
+<h3>Creating a Custom Log</h3>
 <img src="https://i.imgur.com/rlr3NtO.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/IgjHus7.png" height="80%" width="80%"/>
 <br/>
@@ -163,7 +163,7 @@ The purpose of this project is to gain a better understanding and use of experie
 <br/>
 <br/>
 
-<h20>Microsoft Sentinel<h20>
+<h3>Microsoft Sentinel</h3>
 <img src="https://i.imgur.com/LuFTOY9.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/A1p7UPT.png" height="80%" width="100%"/>
 - <b> Navigate and create "Microsoft Sentinel" in Microsoft Azure<br>
@@ -171,7 +171,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> ORANGE: "+ Add workbook"<br>
 <br/>
 
-<h21>Failed RDP World Map</h21>
+<h3>Failed RDP World Map</h3>
 <img src="https://i.imgur.com/jNVrbUV.png" height="80%" width="100%"/>
 - <b> RED: Create a Name for the workbook<br>
 - <b> Also remove everything that's defaulted on the screen until you reach that "Azure Sentinel Report has no content"<br>
@@ -200,7 +200,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b> ORANGE: The map illustates all logged failed RDP attempts by different sized circles representing the magnitude of attempts. Different countries are separated by color, and the amount of recorded failed RDP attempts are listed below in the legend.<br>
 - <b> ORANGE: After a certain period of time, Poland has the most failed RDP attempts (12.5k) that's represented by the red circle on the map<br/>
 <br/>
-<b>Congratulations! You have successfully created a Virtual Machine linked to a SIEM to observe live attacks through RDP Brute Force from various parts of the world. You are able to see how either individuals/bots attempt to Brute Force their way into a Host IP address through various usernames. In application into the real world, the massive amount of attempts are important to note of because one successful login attempt for a small or huge corporation can lead to leaked data which can cost the company millions of dollars if not billions<b> 
+<h3>Congratulations! You have successfully created a Virtual Machine linked to a SIEM to observe live attacks through RDP Brute Force from various parts of the world. You are able to see how either individuals/bots attempt to Brute Force their way into a Host IP address through various usernames. In application into the real world, the massive amount of attempts are important to note of because one successful login attempt for a small or huge corporation can lead to leaked data which can cost the company millions of dollars if not billions</h3> 
 <br />
 <br />
 
