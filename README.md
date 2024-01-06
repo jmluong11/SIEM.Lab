@@ -84,7 +84,7 @@ The purpose of this project is to gain a better understanding and use of experie
 
 <h11> Virtual Machine IP Address</h11>
 <img src="https://i.imgur.com/iGfapgl.png" height="80%" width="100%"/>
-- <b>Go to your Virtual Machine (SIEM-LABZ) and record the "Public IP address" that's assigned<br>
+- <b>Go to your Virtual Machine (SIEM-LABZ "Note there was a slight name change, but the principle still applies the exact same!") and record the "Public IP address" that's assigned<br>
 <br/>
 
 <h12>Remote Desktop Connection
