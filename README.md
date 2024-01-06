@@ -124,13 +124,27 @@ The purpose of this project is to gain a better understanding and use of experie
 <br/>
 
 <h17>PowerShell ISE</h17>
-<img src="https://i.imgur.com/0OF4AO2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0OF4AO2.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IV0nKRh.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
 <br/>
-- <b> Open "Windows Powershell ISE" in your Windows Startup Menu<br>
-<img src="https://i.imgur.com/IV0nKRh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b> Open "Windows Powershell ISE" in your Windows Startup Menu within the Virtual Machine<br>
+- <b> RED: Copy and paste the code into the Powershell query from this link "[https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1](https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1)" <br>
+- <b> ORANGE: In the "$API_Key" , delete the current API key in the quotation marks and paste the API key that was copied from the previous step and then run the script by clicking the green arrow<br>
+- <b> GREEN: After a period of time; coordinates, attempted username, IP address, City/State/Province with COuntry, and time of attempted failed logins will appear in each line of purple text <br>
+<br/>
+
+<h18>File Saving failed RDP attempt logs</18>
 <img src="https://i.imgur.com/ms32orJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b> Use "Notepad" from the start menu and copy and paste several lines of the recorded failed login attempts into the Notepad<br>
+- <b> Save the file under the given name that's desired<br>
+<br/>
+
+<h19>Creating a Custom Log</h19>
 <img src="https://i.imgur.com/rlr3NtO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/IgjHus7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+- <b> Minimize or exit the Virtual Machine and 
 <img src="https://i.imgur.com/hUJAW8e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/GTlXWSi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/XhFQPjM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
