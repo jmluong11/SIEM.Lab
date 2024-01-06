@@ -94,7 +94,7 @@ The purpose of this project is to gain a better understanding and use of experie
 <br/>
 
 <h13>Account Login</h13>
-<img src="https://i.imgur.com/OvFIu8O.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OvFIu8O.png" height="50%" width="90%" alt="Disk Sanitization Steps"/>
 <br/>
 - <b> Enter the username and password that was created when creating the Virtual Machine and hit OK<br>
 <br/>
