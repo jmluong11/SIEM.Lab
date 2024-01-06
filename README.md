@@ -79,7 +79,7 @@ The purpose of this project is to gain a better understanding and use of experie
 - <b>Navigate to LAW, click on "virtual machines," and click the designated VM name that you created<br>
 <img src="https://i.imgur.com/2suLoqy.png" height="80%" width="100%" />
 <br/>
-- <b>Click "Connect" to connect the Virtual Machine and the Log Analytics Workspace, and this will take time to process<br>
+- <b> Click "Connect" to connect the Virtual Machine and the Log Analytics Workspace, and this will take time to process <br>
 <br/>
 
 <h11> Virtual Machine IP Address</h11>
