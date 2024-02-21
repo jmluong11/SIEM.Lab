@@ -17,9 +17,9 @@ The purpose of this project is to gain a better understanding and use of experie
 
 - <b>Windows 10</b> (21H2)
 <h2>Program walk-through:</h2>
-- <b>Azure account is required!</b>
+- <b>Azure account is required!<br>
 - <b>Ensure your settings are matched with the images shown if following you're along <br>
-<br>
+<br/>
  
 <h3>Create a Virtual Machine </h3>
 <img src="https://i.imgur.com/q6dHhvN.png" height="80%" width="100%"/>
